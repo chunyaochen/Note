@@ -1,0 +1,7 @@
+python manage.py migrate --fake
+
+Error: “Table 'db_name.django_content_type' doesn't exist”):
+solution: Clear migrate
+Error 1146:
+python manage.py showmigrations
+python manage.py migrate --fake "the missing module name" zero
